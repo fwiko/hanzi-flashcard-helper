@@ -39,7 +39,7 @@ python main.py <input_file> cloze
 ### Input File
 
 ```
-他的电话号码多少？
+他的电话{号}{码}多少？
 ...
 ```
 
