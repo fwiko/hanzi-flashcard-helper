@@ -36,7 +36,7 @@ Generate "cloze cards" from a list of sentences, with braces {} used to indicate
 python main.py <input_file> cloze
 ```
 
-### Input FileW
+### Input File
 
 ```
 他的电话号码多少？
