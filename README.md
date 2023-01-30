@@ -4,7 +4,7 @@ A simple script to help to batch create Simplified Chinese (普通话) flashcard
 
 ## Generating Reading Cards
 
-Generate "reading cards" from a list of Hanzi phrases, translating each word into Pinyin (拼音) and English. Used to test recognition of Hanzi characters.
+Generate cards from a list of Hanzi phrases, translating each line into Pinyin (拼音) and English. Useful when practicing recognition of Hanzi characters and simple phrases.
 
 ### Command
 
@@ -28,7 +28,7 @@ python main.py <input_file> read
 
 ## Generating Cloze (Fill-in-the-Blank) Cards
 
-Generate "cloze cards" from a list of sentences, with braces {} used to indicate the location of clozes. On Anki, the user will be prompted to enter the full text, filling in the blank - this is useful for testing grammar and character knowledge.
+Generate "cloze" cards from a list of sentences, with braces {} used to indicate the location of clozes. On Anki, the user will be prompted to enter the full text, filling in the blank. Useful for practicing grammar/word-order and general knowledge.
 
 ### Command
 
@@ -52,7 +52,7 @@ python main.py <input_file> cloze
 
 ## Generating Writing Cards
 
-Generate "writing cards" from a list of Hanzi characters, using [strokeorder.info](http://strokeorder.info) to fetch the IDs of GIFs outlining the stroke order of each character. When the card is viewed in Anki, the GIFs are automatically displayed.
+Generate cards from a list of individual Hanzi characters, using [strokeorder.info](http://strokeorder.info) to fetch the IDs of GIFs displaying the stroke order of each character. When the card is viewed in Anki, the GIFs are automatically displayed.
 
 ### Command
 
