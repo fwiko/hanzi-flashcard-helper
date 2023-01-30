@@ -1,6 +1,6 @@
 # Hanzi Flashcard Helper
 
-Help to batch create Chinese (Mandarin) flashcards for Anki.
+A simple script to help to batch create Simplified Chinese (普通话) flashcards for my preconfigured Anki card layouts.
 
 ## Generating Reading Cards
 
